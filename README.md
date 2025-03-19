@@ -32,9 +32,7 @@ CSS, or Cascading Style Sheets, is the language used to control the presentation
 
 Uncover the power of layout design! Dive into 'CSS Grid: A Complete Guide to CSS Grid' and master the art of creating dynamic, responsive layouts. Explore the versatility of CSS Grid for modern web design.
 
-Create Navbar Using CSS Grid :
 
-![screencapture-127-0-0-1-5500-index-html-2023-12-01-15_25_39](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b7253a10-5895-449b-bdca-e8237d7059a5)
 
 Block Create Using Grid:
 
@@ -76,17 +74,6 @@ CSS Code:
       grid-row: 1/3;
     }
 
-CSS Grid: Making Project Using CSS Grid:
-
-Desktop UI:
-
-![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_51_36](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/21b4f725-d660-4a0f-9d8e-e78a75ce0fd5)
-
-![ezgif com-video-to-gif](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f9abcc80-2179-48ce-9be2-dae9aa71c261)
-
-Mobile UI:
-
-![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_52_16](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/9d7d8eb4-edca-443c-80a4-8111249bf75a)
 
 ### CSS Projects: Elevate Your Design Skills
 
@@ -94,21 +81,14 @@ This section introduces you to practical CSS projects. You'll apply your CSS ski
 
 -Project 1 Design link : https://pin.it/5QrO8cz
 
-![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-1-practice-index-html-2023-11-29-21_02_51](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/fbf1ed7f-b35c-4524-8e54-a76decb61f81)
 
--Source Code link : https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/Project%201
 
 -Project 2 Design link : https://pin.it/5jlUvw1
 
-![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-2-cotton-weave-index-html-2023-11-29-21_03_03](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/3f607285-cda4-467a-9512-5938eca2a37b)
-
--Source Code link : https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/project%202%20cotton%20weave
 
 -Project 3 Design link : https://pin.it/6tU5NgO
 
-![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-3-trendline-index-html-2023-11-29-21_03_30](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5ecef9b3-65ce-43e0-a691-fdd91bdc358a)
 
--Source Code link : https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/project%203%20trendline
 
 ### Responsive Web Development
 
@@ -138,21 +118,11 @@ Practice! Practice! Practice!
 
 Unlock the world of captivating web design! Dive into 'Introduction to CSS Animations' and discover the magic of breathing life into your websites. Learn the basics of CSS animations, from transitions to keyframes, and embark on a journey to create visually stunning and dynamic web experiences!
 
-Real Life Use Case :
-
-![ezgif com-video-to-gif](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/83b7a9fa-9ef5-415a-ac62-558b9a55d25e)
 
 -Before & After psuedo Selector
 
 Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design with ::before and ::after' to wield the power of pseudo-elements. Learn to craft captivating designs and elevate your web creations using these versatile tools in CSS animation.
 
-Bringing Websites to life:
-
-![ezgif com-video-to-gif (1)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a3272a30-f79e-4bce-9fe9-a51ec629061d)
-
-Learn Advanced Animation:
-
-![ezgif com-video-to-gif (2)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/69d610be-0177-48d2-8afb-31aee9e68503)
 
 ### CSS Responsive Project
 
@@ -172,11 +142,7 @@ Another way to scroll images in vertical direction : use animation for scrolling
           }
       }
 
--Project ScreenShot:
 
-![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)
-
-![screencapture-127-0-0-1-5500-2023-11-30-18_06_45](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/257b0a48-7fe3-4da1-9dae-7ba8e71c90fd)
 
 -Project Design link : https://www.pinterest.ca/pin/650559108696368140/
 
@@ -520,49 +486,6 @@ JavaScript animations are a dynamic way to bring life and interactivity to your 
 
 -Event Object
 
-### JS Tasks - Mastering practical development challenges
-
-Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive into intense JavaScript practice sessions. Level up your skills with hands-on challenges, solidifying your expertise in JavaScript programming.
-
-1. Create an HTML page with a button. When the button is clicked, change the text of a paragraph element.
-
-![ezgif com-video-to-gif](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/46c90887-f663-4ae2-aaa7-a8d6c1af4415)
-
-2. Create a page with two images and a button. When the button is clicked, swap the source attribute of the images.
-
-![ezgif com-video-to-gif (1)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/4cd74d3e-294b-4cd9-affb-cae83938d2c1)
-
-3. Create a form with input fields and a submit button. Use JavaScript to validate the form and display an error message if the input is invalid.
-
-![ezgif com-video-to-gif (2)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/0f789aee-a54c-403b-acdf-4058e7bfe604)
-
-4. Create an unordered list. Allow users to add and remove list items dynamically using buttons.
-
-![ezgif com-video-to-gif (3)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f6a80fa3-7dab-4398-b0c1-e2b14ec69d6e)
-
-5. Build a countdown timer that starts when a button is clicked and updates the display in real-time.
-
-![ezgif com-video-to-gif (4)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b25d549c-f960-4d60-8d01-a2a86d969ecd)
-
-6. Create a tabbed interface where clicking on tabs displays different content sections without page reload.
-
-![ezgif com-video-to-gif (5)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/0bc7f509-66a8-455e-a108-602e22913696)
-
-7. Display a progress bar that updates in real-time, showing the progress of a task, download, or form submission.
-
-![ezgif com-video-to-gif (6)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/782cbe27-31a5-4f1e-804d-41b087d470ed)
-
-8. Create a search bar that displays live search results as users type, updating the results without requiring a full page reload.
-
-![ezgif com-video-to-gif](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a8509be6-df05-44d0-be3c-403075eefd46)
-
-9. Build a character counter for a text area or input field, which updates real-time as the user types and enforces a character limit.
-
-![ezgif com-video-to-gif (8)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/18b38019-ae94-4a91-adae-2f70847ae44e)
-
-10. Show a progress bar which shows how much page has been scrolled.
-
-![ezgif com-video-to-gif (9)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b18db4d6-4b20-4428-ba28-f919aa5253e8)
 
 ### Real Life Developer Problems
 
@@ -665,15 +588,6 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
 This introductory topic sets the stage for an exciting journey into advanced web animation techniques. GSAP (GreenSock Animation Platform), ScrollTrigger, Locomotive, and other tools are introduced as powerful resources for creating dynamic and engaging web animations.
 
--GSAP Basics:
-
-![ezgif com-video-to-gif (3)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/1ce64067-7d66-436e-a13e-3f8b30353814)
-
-GSAP Project :
-
-![screencapture-file-D-Sheryians-FrontEnd-Domination-GSAP-ScrollTrigger-Locomotive-Fun-Stuff-GSAP-Project-index-html-2023-11-29-21_03_52](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a4c285b1-90fc-4e0b-9f42-039c23e768aa)
-
-![ezgif com-video-to-gif (4)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/e2262de6-02c2-4f91-a70b-dc24ffbd625c)
 
 Include GSAP Using CDN link
 
@@ -681,9 +595,7 @@ Include GSAP Using CDN link
 
     gsap.from(".nav h3", {y: -50, opacity: 0,duration: 1,delay: 0.5,stagger: 1,});
 
-ScrollTrigger UseCase :
 
-![ezgif com-video-to-gif (5)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/54f1157c-96d7-4823-aa08-98d0136237c4)
 
 ### GSAP - Understanding Pin Property in ScrollTrigger
 
@@ -784,9 +696,7 @@ Include CDN Links :
 
 - To Apply Locomotive Don't give width & height to wrapper/container
 
-- Locomotive Smooth Scrolling :
 
-![ezgif com-video-to-gif-converted (4)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/7c0f1ee0-1624-4bc0-96f5-0aa51970b4a3)
 
 - To use scrolltrigger with locomotive you need include some JS Code
 
@@ -850,9 +760,6 @@ Include CDN Links :
         },
       });
 
-Use Locomotive & GSAP ScrollTrigger Both:
-
-![ezgif com-video-to-gif-converted (3)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ead1266b-a0c0-4c81-8f9e-f50678b1f24b)
 
 ### GSAP: Bonus Project!!
 
@@ -901,9 +808,7 @@ Unlock GSAP's Potential: Delve into the 'Bonus Project' and explore the extra di
         });
       }
 
-Text Effect on Scroll :
 
-![ezgif com-video-to-gif-converted (5)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/536a9603-6e77-49c8-9071-bdd41fc21624)
 
 ### Final Project - Obys Agency Clone
 
@@ -915,9 +820,7 @@ Embark on our final project—a polished clone of obys.agency, showcasing everyt
 
 Master Tailwind CSS in a single session! Dive into a comprehensive guide covering the entire spectrum of Tailwind CSS. Elevate your skills and streamline your workflow with this powerful utility-first framework.
 
-## create Landing Page Using Tailwind CSS:
 
-![Screenshot (3247)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ffdfb37c-1419-4a04-bf2d-9d30568de40f)
 
 # React JS
 
@@ -2014,9 +1917,7 @@ Download :
 
   ![foo](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/c7a44e91-6292-48b6-b9e4-b010f3e87821)
 
-## Refokus UI :
 
-![screencapture-localhost-5173-2024-04-14-15_33_50](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/4974dd27-1cac-47f4-b54e-7c3b752dfd4a)
 
 ##### Use Locomotive JS
 
@@ -2079,9 +1980,7 @@ Download :
         });
       });
 
-##### IMAGE PREVIEW:
 
-![ViteReact-GoogleChrome2024-06-1512-58-10-ezgif com-video-to-gif-converter](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/439d2bca-634e-4252-8a48-3a8046354b40)
 
 ##### GSAP Timeline: Animate Like a Pro
 
@@ -2116,11 +2015,6 @@ Download :
             { scope: ".container1" }
           );
 
-##### IMAGE PREVIEW:
-
-![ViteReact-GoogleChrome2024-09-1021-51-51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4b53a7ab-2df2-451a-ad7e-7ae62538f2ce)
-![ViteReact-GoogleChrome2024-09-1022-01-53-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/283a2310-7ea8-47df-abd4-cbbaf9a78291)
-
 
 # FrontEnd Domination
 
@@ -2132,5 +2026,5 @@ Embarking on a journey to become a proficient frontend developer is an exciting 
 
 Happy Learning! ✨
 
-Made with ☕️ by Divyanshu Kashyap
+Made with ☕️ by Adesh Wasane
 # FrontEnd-Development
