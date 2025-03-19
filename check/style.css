@@ -1,0 +1,13 @@
+.root{
+    animation-name:anim;
+    animation 
+}
+@keyframes anim {
+    from{
+        left: 0;
+
+    }
+    to{
+        left: 50%
+    }
+}
