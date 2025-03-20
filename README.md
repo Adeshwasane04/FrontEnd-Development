@@ -175,6 +175,8 @@ JavaScript is a versatile and essential programming language for web development
 
 -variables constants
 
+-window: window is not is a part of javascript but javascipt allow to run in the browser
+
 -compilers & interpreters
   compiler : compiler execute the program line by line and render it to the screen at 
   a single time. compiler convert the source code into machine code
@@ -284,30 +286,160 @@ arr.forEach(function(val)
   else return 0;
 })
 
-objects
-questions
+-objects:an object is a fundamental data structure that stores key-value pairs, where keys are strings (or symbols) and values can be any data type, including other objects
+
+var obj={
+   name:"fiat",
+   model="21";
+}
+
+var obj=new Object();
+
 
 -prototypes
 prototypal inheritance
 
 -asynchronous synchronous js
 
--es6 climax
+synchronous
+In synchronous execution, operations are performed sequentially, one after the other. Each operation must complete before the next one can start. This means that if a task takes a long time to execute, it will block the execution of subsequent tasks until it finishes. 
+
+
+Asynchronous Execution
+Asynchronous execution allows the program to continue running other tasks while waiting for a long-running task to complete. This is achieved using callbacks, promises, or async/await. When an asynchronous operation is initiated, the program doesn't wait for it to finish but instead moves on to the next task. Once the asynchronous operation is complete, a callback function is executed, or a promise is resolved, or the async function continues after the await.
+
+
+-this is the keyword in the javascript and the value of this can be change according to the condition 
+
+value of this keyword and its scope 
+//scope           //value  
+1.global scope- window
+ex: console.log(this);
+
+2.function scope-window
+ex: function abc(val)
+{
+  console.log(this);
+}
+abc();
+
+3.method scope - object
+ex: var obj={
+  name:function()
+  {
+    console.log(this);
+  },
+  age:23,
+  date:221,
+  year:2003;
+}
+obj.name();
+
+4. function inside method (es5)  - window
+ex: var obj={
+  name:function (){
+    console.log(this)    //here it return the value as a object because it represent as a method 
+   
+      function childfunc(){
+        console.log(this)   //here it return the value of window
+      },
+      childfunc();
+
+    age:23,
+    year:23;
+  }
+  obj.name();
+}
+
+5. function inside method (es-6) -object   //in es6 we use arrow function 
+ex: var obj{
+  name:function (){                arrow fuction take a value form the parents
+    var abc=()=>{
+       console.log(this);
+    }
+    abc();
+  }
+  obj.function();
+}
+
+
 -questions
 
 -miscellaneous switch case and ternary do-while forin forof
 
 -interview prep
+what is differnce between method and function?
+answer: method is a function that is associated with the object or a class  while function is a
+standalone block of code that perform a specific task.
 
--call apply bind
-this
-prototypal inheritance
+inshort agar function object ke andar hoto we can call it as a method.
+
+
+
+-call apply bind: ye teen tarike hai function ko call karne ke kisi object ko this mankar 
+ 
+ call
+ex:  const obj={name:"adesh"};
+      function abcd(){
+        console.log(this);
+      }
+      aabcd.call(obj);
+
+ apply : use first value this and second value array
+  
+  const obj={name:"adesh"};
+      function abcd(a,b,c){
+        console.log(this,a,b,c);
+      }
+      aabcd.apply(obj,[1,2,3]);
+
+ bind: bind ek function deta hai jo apan baad mai bhi use kar sakte hai and it is similar like a call 
+ex: 
+    const obj={name:"adesh"};
+      function abcd(){
+        console.log(this);    //here the value of the function is window but we use bind to pass the obj and now its  value is object
+      }
+      var baadmaiusekarege=aabcd.bind(obj);
+
+      baadmaiusekarege();
+
+
+
 
 ### Advance JavaScript : God Level JavaScript
 
 Master advanced JavaScript concepts in a single session! Dive into an intensive guide covering the breadth of advanced JavaScript topics. Elevate your skills and deepen your understanding of complex JavaScript functionalities.
 
 -Prototypal Inheritance
+before starting about prototype inheritance first we understand about the blank constructor value that we are 
+going to pass to the constructor
+
+  function HumanDetail(name,age,dob)
+  {
+    this.name=name;   //when we pass the value from the constructor it has new keyword which means we are 
+    this.age=age;     //taking the blank value and running a function in the function this keyword is black here 
+    this.bob=dob;     //and it create a new object called name or anything
+  }
+var ans=new HumanDetail("adesh",22,23);   //new is create a new contructor and which is blank
+
+prototype inheritance is used when their is a commom object in both of the different function to save the 
+memory space we use prototype inheritance
+
+example:
+
+function vechile(name,model,wheels)
+{
+  this.name=name;
+  this.model=model;
+  this.wheels=wheels;
+
+}
+vechile.prototype.car=function(){   //this is the common this both vechile1 and vechile2
+  console.log(this.name);
+}
+var vechile1=new vechile(name,model,wheels);  
+var vechile2=new vechile(name,model,wheels);
+
 
 -Closures
 
