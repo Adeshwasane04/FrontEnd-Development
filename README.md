@@ -198,12 +198,92 @@ and for avoid this change we use spread operator
 -conditionals
 loops:repreat
 
--functions
-return
+-functions : In javascript for the use of function we do not need to give a datatype to the function.
 
--undefined not defined null
+syntax: 
+function abcd(parameter){
+
+
+}
+abcd(); //this is used for calling  the function 
+
+
+what is function?
+answer: a block of code that perform a specific task also a function is a reusable unit of code that can be called multiple time.
+
+why we need function?
+answer: to reuse the code and to wrap the code which we want to use in future at some point of time.
+
+in the function we can send both parameter and argument 
+
+function abcd(val){      //val: this is the parameter we pass in the function 
+
+}
+abcd(12.3); //12.3 is the argument
+
+## differnt type of functions:
+
+1. function statement:
+function abcd(){
+  //function statement
+
+  return;
+}
+
+2.function expression:
+let abc=function (){ //dont give a name to the function
+   //function expression
+
+   return;
+}
+
+3.anonymous function:
+function () //here the function dont have name 
+{
+  //anonomus function
+
+  return; 
+}
+
+4.fat arrow function:
+var a=()=>{
+  //basic arrow function
+}
+
+var a= val=>{
+  //single parameter fat arrow function
+}
+a(2);
+
+5.Implict return function:
+var a=()=>true/12/12.3/null/"adesh";
+
+
+-when we not returing anything in function javascript have ground rule that it return undefined value. 
 
 -arrays
+
+what is arrays?
+arrays is the collection of element that can be store in the contigious memory  location and which can be accessible 
+by thie indexes.
+
+ex: var abc=["adesh","yash","sarthak","hello"];
+console.log(abc[3]);
+
+## forEach loop the type of loop and that can be only used with the array
+
+ex:
+var ans=4;
+var arr=[1,2,3,4,5];
+arr.forEach(function(val)
+{
+  if(val===ans)
+  {
+    return 1;
+  }
+  else return 0;
+})
+
 objects
 questions
 
@@ -2026,5 +2106,5 @@ Embarking on a journey to become a proficient frontend developer is an exciting 
 
 Happy Learning! ✨
 
-Made with ☕️ by Adesh Wasane
+Made with by Adesh Wasane
 # FrontEnd-Development
