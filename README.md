@@ -425,8 +425,10 @@ var ans=new HumanDetail("adesh",22,23);   //new is create a new contructor and w
 prototype inheritance is used when their is a commom object in both of the different function to save the 
 memory space we use prototype inheritance
 
+
+
 -example:
-function vechile(name,model,wheels)
+ ``` function vechile(name,model,wheels)
 {
   this.name=name;
   this.model=model;
@@ -439,7 +441,7 @@ vechile.prototype.car=function(){   //this is the common this both vechile1 and 
 var vechile1=new vechile(name,model,wheels);  
 var vechile2=new vechile(name,model,wheels);
 
-
+```
 -Closures
 what is closure?
 answer:closure is  a function who return another function and uses the any variable of the parent function.
