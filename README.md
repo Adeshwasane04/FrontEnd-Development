@@ -317,14 +317,15 @@ value of this keyword and its scope
 ex: console.log(this);
 
 2.function scope-window
-ex: function abc(val)
+ex:
+``` function abc(val)
 {
   console.log(this);
 }
 abc();
-
+```
 3.method scope - object
-ex: var obj={
+ex:``` var obj={
   name:function()
   {
     console.log(this);
@@ -334,9 +335,10 @@ ex: var obj={
   year:2003;
 }
 obj.name();
+```
 
 4. function inside method (es5)  - window
-ex: var obj={
+ex: ```var obj={
   name:function (){
     console.log(this)    //here it return the value as a object because it represent as a method 
    
@@ -350,9 +352,9 @@ ex: var obj={
   }
   obj.name();
 }
-
+```
 5. function inside method (es-6) -object   //in es6 we use arrow function 
-ex: var obj{
+ex: ```var obj{
   name:function (){                arrow fuction take a value form the parents
     var abc=()=>{
        console.log(this);
@@ -361,7 +363,7 @@ ex: var obj{
   }
   obj.function();
 }
-
+```
 
 -questions
 
@@ -379,23 +381,23 @@ inshort agar function object ke andar hoto we can call it as a method.
 -call apply bind: ye teen tarike hai function ko call karne ke kisi object ko this mankar 
  
  call
-ex:  const obj={name:"adesh"};
+ex:  ```const obj={name:"adesh"};
       function abcd(){
         console.log(this);
       }
       aabcd.call(obj);
-
+```
  apply : use first value this and second value array
   
-  const obj={name:"adesh"};
+ ``` const obj={name:"adesh"};
       function abcd(a,b,c){
         console.log(this,a,b,c);
       }
       aabcd.apply(obj,[1,2,3]);
-
+```
  bind: bind ek function deta hai jo apan baad mai bhi use kar sakte hai and it is similar like a call 
 ex: 
-    const obj={name:"adesh"};
+  ```  const obj={name:"adesh"};
       function abcd(){
         console.log(this);    //here the value of the function is window but we use bind to pass the obj and now its  value is object
       }
@@ -404,24 +406,26 @@ ex:
       baadmaiusekarege();
 
 
-
+```
 
 ### Advance JavaScript : God Level JavaScript
 
 Master advanced JavaScript concepts in a single session! Dive into an intensive guide covering the breadth of advanced JavaScript topics. Elevate your skills and deepen your understanding of complex JavaScript functionalities.
 
--Prototypal Inheritance
+####Prototypal Inheritance
+
+
 before starting about prototype inheritance first we understand about the blank constructor value that we are 
 going to pass to the constructor
 
-- function HumanDetail(name,age,dob)
+``` function HumanDetail(name,age,dob)
   {
     this.name=name;   //when we pass the value from the constructor it has new keyword which means we are 
     this.age=age;     //taking the blank value and running a function in the function this keyword is black here 
     this.bob=dob;     //and it create a new object called name or anything
   }
 var ans=new HumanDetail("adesh",22,23);   //new is create a new contructor and which is blank
-
+```
 prototype inheritance is used when their is a commom object in both of the different function to save the 
 memory space we use prototype inheritance
 
@@ -447,6 +451,17 @@ what is closure?
 answer:closure is  a function who return another function and uses the any variable of the parent function.
 
 
+``` 
+
+function abc()
+{
+  let count=0;
+   return function (){
+     count++;
+    cosole.log(count);
+   }
+}
+```
 -Event Delegation
 
 -Higher-Order Functions
