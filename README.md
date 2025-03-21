@@ -414,7 +414,7 @@ Master advanced JavaScript concepts in a single session! Dive into an intensive 
 before starting about prototype inheritance first we understand about the blank constructor value that we are 
 going to pass to the constructor
 
-  function HumanDetail(name,age,dob)
+- function HumanDetail(name,age,dob)
   {
     this.name=name;   //when we pass the value from the constructor it has new keyword which means we are 
     this.age=age;     //taking the blank value and running a function in the function this keyword is black here 
@@ -425,8 +425,7 @@ var ans=new HumanDetail("adesh",22,23);   //new is create a new contructor and w
 prototype inheritance is used when their is a commom object in both of the different function to save the 
 memory space we use prototype inheritance
 
-example:
-
+-example:
 function vechile(name,model,wheels)
 {
   this.name=name;
@@ -442,6 +441,9 @@ var vechile2=new vechile(name,model,wheels);
 
 
 -Closures
+what is closure?
+answer:closure is  a function who return another function and uses the any variable of the parent function.
+
 
 -Event Delegation
 
