@@ -495,7 +495,8 @@ Defination: ek aisa function jo ki ek function ko parameter mein accept karle or
 the event which are made by overself to make the code eaasier
 
 ex:
-``` const yourEvent=new Event("Ghar jao");   //make event
+``` 
+   const yourEvent=new Event("Ghar jao");   //make event
    
     document.querySelector("button")
     .addEventListner("Ghar jao",function(){
