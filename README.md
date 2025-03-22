@@ -722,40 +722,16 @@ JavaScript animations are a dynamic way to bring life and interactivity to your 
 -content
 
 -DOM
-defination:The DOM (Document Object Model) is like a tree structure of a webpage that JavaScript can use to change or control the content, style, and structure of the page. It helps in adding, removing, or modifying elements dynamically. 
 
 -DOM Manipulation
 
-
-select karo event hone par change karo
-
 -Accessing Elements:
-     //universal selector 
 
-     document.querySelector()      //if we write querySelectorAll() then it selcet all element of that tag or class.
-
-  //Id selector
-
-    document.getElementById();
-
-  //class selector
-    
-     document.getElementByClassName();
-
-   //tag selctor
-
-     document.getElementByTagName();
-
+     document.querySelector()
 
 -Modifying Elements:
 
-     innerHTML, textContent
-
-     ```
-     var elm=document.getElementById("hello");
-     elm.textContent="HELLO";
-
-     ```
+     innerHTMl, textContent
 
 -Manipulating Styles and Classes:
 
@@ -768,35 +744,10 @@ select karo event hone par change karo
     appendChild()
     removeChild()
 
-ex-
-```
-  var h12=document.createElement("h1")
-  h12.classList="makeitRed";
-  h12.style.red="red";
-  h12.textContent="hello";
-
-  document.querSelector("body").appendChild(h12 );
-
-  ```
-
 -Event Handling:
 
     addEventListener()
 
- //Events
- 1. click
- 2.dblclick
- 3.mouseover
- 4. mouseleave and many more
-
-```
- var btn=document.querySelector("button");
- bn.addEventListner("dblclick",function(){
-  btn.textContent="starting...";
-  btn.styleBackground="red";
- });
-
- ```
 -Event Object
 
 
