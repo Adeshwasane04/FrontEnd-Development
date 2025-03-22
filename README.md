@@ -412,7 +412,7 @@ ex:
 
 Master advanced JavaScript concepts in a single session! Dive into an intensive guide covering the breadth of advanced JavaScript topics. Elevate your skills and deepen your understanding of complex JavaScript functionalities.
 
-####Prototypal Inheritance
+#### Prototypal Inheritance
 
 
 before starting about prototype inheritance first we understand about the blank constructor value that we are 
@@ -447,10 +447,10 @@ var vechile2=new vechile(name,model,wheels);
 
 ```
 -Closures
-what is closure?
-answer:closure is  a function who return another function and uses the any variable of the parent function.
 
+Defination: closure is  a function who return another function and uses the any variable of the parent function.
 
+ex:
 ``` 
 
 function abc()
@@ -461,18 +461,50 @@ function abc()
     cosole.log(count);
    }
 }
+ var func=counter();
+ func();
+
 ```
 -Event Delegation
 
+Defination: jab aap event listener se kai saare different elements ke event ko handle kar sake 
+//event listner ko parent par lagao and unki id , class ya fir tag ke basis par differnetiate karke differnet task karao
+
+create a two buttons
+
+```
+var parent = document.querySelector("#parent");
+parent.addEventListener("click", function(details){
+   if(details.target.id==="play")
+   {
+    console.log("play song");
+   }
+   else if(details.target.id==="pause")
+   {
+    console.log("pause song");
+   }
+})
+```
 -Higher-Order Functions
+Defination: ek aisa function jo ki ek function ko parameter mein accept karle or ek function ko return karde .
+
 
 -Error Handling (try...catch blocks)
 
 -Custom Events
+the event which are made by overself to make the code eaasier
 
--Understanding this
+ex:
+``` const yourEvent=new Event("Ghar jao");   //make event
+   
+    document.querySelector("button")
+    .addEventListner("Ghar jao",function(){
+      alert("ja raha hu");
+    })
+    document.querySelctor("button").dispatchEvent(yourEvent);
 
--call apply bind
+```
+
 
 ### Asynchronous JavaScript
 
