@@ -466,6 +466,7 @@ function abc()
 
 ```
 -Event Delegation
+when you create a multiple listner for diferenct button so insted of creating multiple listner we create a one parent listner and thorough which we create multiple operations and basically it helps to reduce space.
 
 Defination: jab aap event listener se kai saare different elements ke event ko handle kar sake 
 //event listner ko parent par lagao and unki id , class ya fir tag ke basis par differnetiate karke differnet task karao
@@ -508,6 +509,8 @@ ex:
 
 
 ### Asynchronous JavaScript
+
+- youtube pe hai 
 
 Unlocking Asynchronous JavaScript: Navigate the world of async programming. Understand promises, async/await, and callbacks, mastering the art of handling asynchronous tasks in JavaScript.
 
@@ -859,9 +862,25 @@ Include GSAP Using CDN link
 
     gsap.from(".nav h3", {y: -50, opacity: 0,duration: 1,delay: 0.5,stagger: 1,});
 
+     //gsap.timeline is used to animate the element one after another and timeline is just like a parent animation  
+    
+     ex: var tl=gsap.timeline();
 
+     //stager is used to animate the element in the certein interval
+
+    
+-Project Preview:
+         https://www.behance.net/gallery/128734747/Francesco-Gioia
 
 ### GSAP - Understanding Pin Property in ScrollTrigger
+scolltriger is a part of gsap
+
+and add a cdn for this first
+//properties: 1.scrub:for jounery of animation from starting point to ending point
+              2.marker:true for seeing the marking in screen and marker value is either 1to5 or boolean
+              3.trigger:element name 
+              4.scroller:body 
+
 
     gsap.to(".page2 img", {
       width: "100%",
@@ -876,9 +895,7 @@ Include GSAP Using CDN link
       },
     });
 
-Project ShowCase :
 
-![ezgif com-optimize](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a07de365-5e8c-421d-9cf4-5cb715a559aa)
 
 - Text Scroll Effect
 
@@ -894,9 +911,6 @@ Project ShowCase :
         },
       });
 
-Project ShowCase:
-
-![ezgif com-video-to-gif-converted (2)](https://github.com/Adeshwasane04/Front-End-Domination-Create-Anything-with-Code/assets/88204554/8d0a1dc2-1241-463a-9b03-827bd7b2aa56)
 
 ### Locomotive- All in One Video
 

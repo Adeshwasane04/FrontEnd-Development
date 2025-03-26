@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.page{
+    height: 100%;
+    
+    width: 100%;
+    background-color:aqua;
+    position: relative;
+}
+.container{
+    min-height: 50%;
+    width: 60%;
+    background-color: wheat;
+   position: absolute;
+   left: 20%;
+   top: 25%;
+ 
+}
+.section-1{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+  
+    padding: .8vw;
+    border: 2px solid black;
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+}
+
+.content{
+    margin: 3vw;
+
+}
+.content1{
+ display: none;
+}
+.content2{
+   display: none;
+}
+.content3{
+display: none;
+}

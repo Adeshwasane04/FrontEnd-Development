@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:bisque;
+}
+.container{
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+    border-radius: 3vw;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:4vw;
+    align-items: center;
+}
+.box{
+    height: 3vw;
+    width: 9vw;
+    background-color: green;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h2{
+    margin-top: .6vw;
+}
+.buttons{
+    display: flex;
+    gap: 2vw;
+}
+button{
+    padding: 0.3vw;
+    width: 5vw;
+    gap: 2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
