@@ -855,6 +855,8 @@ JavaScript animations are a dynamic way to bring life and interactivity to your 
 
 This introductory topic sets the stage for an exciting journey into advanced web animation techniques. GSAP (GreenSock Animation Platform), ScrollTrigger, Locomotive, and other tools are introduced as powerful resources for creating dynamic and engaging web animations.
 
+-Defination:GSAP (GreenSock Animation Platform) is a powerful JavaScript library used for creating high-performance animations in web development. It allows developers to animate various properties of HTML elements, CSS, SVG, and more, with precise control over timing, sequencing, and easing. GSAP is known for its speed, flexibility, and cross-browser compatibility, making it a popular choice for creating engaging and interactive web experiences. It functions as a robust tool for animating anything that JavaScript can access, offering advanced features like timelines, sequencing, and special effects through plugins. 
+
 
 Include GSAP Using CDN link
 
@@ -865,12 +867,13 @@ Include GSAP Using CDN link
      //gsap.timeline is used to animate the element one after another and timeline is just like a parent animation  
     
      ex: var tl=gsap.timeline();
-
+       
      //stager is used to animate the element in the certein interval
 
-    
+for more information see the gsap documentation and GSAP-in-javascript folder
+
 -Project Preview:
-         https://www.behance.net/gallery/128734747/Francesco-Gioia
+      https://www.behance.net/gallery/128734747/Francesco-Gioia
 
 ### GSAP - Understanding Pin Property in ScrollTrigger
 scolltriger is a part of gsap
