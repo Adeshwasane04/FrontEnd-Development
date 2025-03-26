@@ -858,9 +858,9 @@ This introductory topic sets the stage for an exciting journey into advanced web
 
 Include GSAP Using CDN link
 
-    gsap.to('selector',{properties})
+    gsap.to('selector',{properties})    //to : means start to end 
 
-    gsap.from(".nav h3", {y: -50, opacity: 0,duration: 1,delay: 0.5,stagger: 1,});
+    gsap.from(".nav h3", {y: -50, opacity: 0,duration: 1,delay: 0.5,stagger: 1,});   //from means end to start
 
      //gsap.timeline is used to animate the element one after another and timeline is just like a parent animation  
     
