@@ -884,7 +884,36 @@ and add a cdn for this first
               3.trigger:element name 
               4.scroller:body 
 
+-this is the gasp animation for animating the circle when the body of the page get trigger and code is in GSAP-in-Javascript folder project1
 
+```
+gsap.from(".page1 .circle",{
+    x:-500 ,
+    scale:0,
+    rotate:700,
+   delay:0.8,   
+   duration:2,
+  
+});
+gsap.from(".page2 .circle",{
+   
+    scale:0,
+    rotate:700,
+   delay:0.8,   
+   duration:2,
+    scrollTrigger:{
+        trigger:".page2 .circle",
+        scroller:"body",
+        markers:true,
+        color:"black",
+        start:"top 60%",
+        scrub:true   //value for scrub is either true or false or 1to 5 for smooth animation
+    }
+});
+
+```
+ 
+ -for the image animation when the body get trigger and we use pin property here so that image get complety animation when we are scrolli
     gsap.to(".page2 img", {
       width: "100%",
       scrollTrigger: {
@@ -902,22 +931,24 @@ and add a cdn for this first
 
 - Text Scroll Effect
 
-      gsap.to(".page2 h1", {
+   ```   gsap.to(".page2 h1", {
         transform: "translateX(-125%)",
         scrollTrigger: {
           trigger: ".page2",
           scroller: "body",
-          scrub: 2,
+          scrub: 2,   //scrub is used for animation occur between start and end point of page and start and end point is 
+                                  //indicate by marker 
           pin: true,
           start: "top 0",
           end: "top -100%",
-        },
+        }
       });
 
+```
 
 ### Locomotive- All in One Video
 
-- Learning Smooth Scrolling Effects
+- Locomotive is used for Smooth Scrolling Effects
 - Include CDN links to index.html file
 
       // CSS file
@@ -977,7 +1008,10 @@ Include CDN Links :
 
 - To Apply Locomotive Don't give width & height to wrapper/container
 
+-locomotive hijack the the normal scrolling so thats all the properties assign by scrollTrigger does not work properly.
+and for performing the operation of scrollTriger with locomotive we need to perform following steps 
 
+       -search "locomotive scrollTrigger codepen and copy the js code and paste it into the js file"
 
 - To use scrolltrigger with locomotive you need include some JS Code
 
@@ -1019,6 +1053,7 @@ Include CDN Links :
       // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
       ScrollTrigger.refresh();
 
+  //this is the code that we write
       gsap.from(".page1 .box", {
         scale: 0,
         duration: 1,
