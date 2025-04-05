@@ -1053,7 +1053,7 @@ and for performing the operation of scrollTriger with locomotive we need to perf
       // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
       ScrollTrigger.refresh();
 
-  //this is the code that we write
+  //this is the code we have 
       gsap.from(".page1 .box", {
         scale: 0,
         duration: 1,
