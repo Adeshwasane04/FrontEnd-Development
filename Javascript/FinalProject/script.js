@@ -89,6 +89,7 @@ function loadingAnimation() {
   tl.to("#loader", {
     display: "none",
   });
+
   tl.from(".heroContainer", {
     y: 1200,
     duration: 1,
